@@ -35,10 +35,10 @@
 */
 
 const calculator = (number1, number2) => ({ 
-  sum: sumi(number1, number2),
-  mult: multi(number1, number2),
-  div: divi(number1, number2),
-  sub: subs(number1, number2),
+  sum: sum(number1, number2),
+  mult: mult(number1, number2),
+  div: div(number1, number2),
+  sub: sub(number1, number2),
 });
 
 const arrayGenerator = (type, object) => {
